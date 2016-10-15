@@ -449,8 +449,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.io.scheduler=bfq
 
 # Dalvik/HWUI
-$(call inherit-product, frameworks/native/build/phone-xxxhdpi-2048-dalvik-heap.mk)
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # drmservice prop
 PRODUCT_PROPERTY_OVERRIDES += \
